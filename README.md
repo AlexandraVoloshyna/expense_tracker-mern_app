@@ -35,7 +35,7 @@ Create a `.env` file in the root directory and configure the environment variabl
 3. Open your browser and navigate to `http://localhost` to use the app.
 
 ## Demo
-Check out the app here. [here](https://expense-tracker-frontend-tmm9.onrender.com).
+Check out the app [here](https://expense-tracker-frontend-tmm9.onrender.com).
 
 
 
