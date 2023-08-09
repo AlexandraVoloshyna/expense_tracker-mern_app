@@ -3,7 +3,8 @@ import { setCredentials, clearCredentials } from './authSlice';
 
 
 const baseQuery = fetchBaseQuery({ 
-  baseUrl: '',
+  baseUrl: 'https://expense-tracker-server-rp9x.onrender.com',
+  credentials: 'include',
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token
     if (token) {

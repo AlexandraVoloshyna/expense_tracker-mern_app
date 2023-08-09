@@ -45,7 +45,7 @@ function Header() {
                             <p>{name}</p>
                         <div className={styles['user-profile-logo']}>
                             <NavLink to="/profile">
-                                    <img src={`http://localhost:5002/${avatar}`} alt="profile-icon" />
+                                    <img src={`https://expense-tracker-server-rp9x.onrender.com/${avatar}`} alt="profile-icon" />
                             </NavLink>
                         </div>
                         <div className={styles["user-profile-btn"]}>
