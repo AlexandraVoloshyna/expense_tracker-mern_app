@@ -1,7 +1,7 @@
 import multer from "multer";
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-      cb(null, 'https://expense-tracker-server-rp9x.onrender.com');
+      cb(null, 'https://expense-tracker-server-rp9x.onrender.com/images');
     },
     filename: (req, file, cb) => {
       cb(null, Date.now() + '-' + file.originalname);
