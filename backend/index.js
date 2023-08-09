@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import  express  from "express";
 import cookieParser from "cookie-parser";
 import { connectDB } from "./config/connectDB.js";
-
+import cors from "cors"
 import { checkAuth } from "./middleware/authMiddleware.js" 
 import {errorHandler, notFound} from "./middleware/errorMiddleware.js"
 
@@ -21,7 +21,7 @@ connectDB()
 const Port = process.env.PORT || 5001
     app.use(express.json())
     app.use(cookieParser())
-//http://localhost:5002/
+    app.use(cors())
     app.use('/api/auth', authRoute )
     app.use('/api/profile', checkAuth,  profileRoute )
     app.use(express.static(path.join(__dirname,  'images')))
