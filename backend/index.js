@@ -21,7 +21,12 @@ connectDB()
 const Port = process.env.PORT || 5001
     app.use(express.json())
     app.use(cookieParser())
-    app.use(cors())
+    app.use(cors({
+        origin:['https://expense-tracker-frontend-tmm9.onrender.com'],
+        methods: ['POST', 'GET', 'PUT', 'PATCH', 'DELETE'],
+        credentials: true
+
+    }))
     app.use('/api/auth', authRoute )
     app.use('/api/profile', checkAuth,  profileRoute )
     app.use(express.static(path.join(__dirname,  'images')))
