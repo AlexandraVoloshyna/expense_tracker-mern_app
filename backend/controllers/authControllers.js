@@ -74,15 +74,7 @@ try {
     next(error)
 }
 }
-export const activateProfile =  async (req, res, next)  =>{
-    try {
-        const activationLink = req.params.link;
-        await authService.activateAccount(activationLink, res);
-        res.redirect(process.env.CLIENT_URL);
-    } catch (error) {
-        next(error);
-    }
-}
+
 export const refreshToken = async(req, res, next) =>{
     try {
         const {refreshToken} = req.cookies;

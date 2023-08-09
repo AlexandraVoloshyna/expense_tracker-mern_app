@@ -23,13 +23,6 @@ const UserSchema = new Schema(
             default:'default_avatar.png'
            
         },
-        isActivated: {
-            type: Boolean, 
-            default: false
-        },
-        activationLink: {
-            type: String
-        },
 
     }
 )
