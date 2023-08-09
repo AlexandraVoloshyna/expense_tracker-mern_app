@@ -1,0 +1,42 @@
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 5px;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.user-profile{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    
+}
+.user-profile p{
+    font-size: 16px;
+}
+.user-profile-btn{
+    display: flex;
+    align-items: center;
+
+}
+.user-profile-btn button{
+    background-color: #d43d4c;
+    margin: 0 1rem;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.user-profile-logo{
+    display: flex;
+}
+.user-profile-logo img{
+width: 32px;
+height: 32px;
+}

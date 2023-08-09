@@ -1,0 +1,40 @@
+.new-expense__controls{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    text-align: left;
+    justify-content: center;
+}
+
+.new-expense__controls label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.new-expense__controls input{
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: 20rem;
+    max-width: 100%;
+    border: 1px solid;
+
+}
+.new-expense__actions{
+   display:flex;
+   justify-content: flex-end;
+
+    
+}
+.new-expense__actions button{
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #169632;
+    border-radius: 12px;
+    box-shadow:  0px 1px 8px rgba(0, 0, 0, 0.25);
+    border: 1px solid;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+ }

@@ -1,0 +1,21 @@
+
+.filters {
+  display: flex;
+  justify-content: flex-end;
+}
+.filter {
+    color: white;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1rem 0;
+  }
+  
+  
+  .filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
