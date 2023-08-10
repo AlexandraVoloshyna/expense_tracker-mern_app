@@ -33,6 +33,8 @@ export const logIn = async (req, res, next)=> {
         res.cookie('refreshToken', data.tokenRefresh, {
             httpOnly: true,
             maxAge:30*24*60*60*1000,
+            sameSite: 'none',
+            secure: true
         })
         
         res.status(200).json({ data, message: "success"})
