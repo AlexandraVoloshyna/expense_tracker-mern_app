@@ -24,7 +24,9 @@ const Port = process.env.PORT || 5001
     app.use(cors({
         origin:['https://expense-tracker-frontend-tmm9.onrender.com'],
         methods: ['POST', 'GET', 'PUT', 'PATCH', 'DELETE'],
-        credentials: true
+        credentials: true,
+        headers: ['Authorization'],
+        maxAge: 86400000
 
     }))
     app.use('/api/auth', authRoute )
