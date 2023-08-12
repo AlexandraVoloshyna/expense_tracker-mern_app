@@ -47,7 +47,7 @@ export const registerUser = async(email, password, res)=>{
 
 export const reset = async( email, password, confirmPassword, res)=>{
     const userProfile = await userModel.findOne({email})
-    if (userProfile && email !== 'test@gmail.com') {
+    if (userProfile) {
         if(password === confirmPassword){
             const saltRounds = 10;
             const salt = await bcrypt.genSalt(saltRounds);
