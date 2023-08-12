@@ -69,13 +69,6 @@ function Login() {
                forgot password?
         </NavLink>
     </form>
-    <br />
-    <div>
-      email: test@gmail.com
-      <br />
-      <br />
-      password: test123
-    </div>
     </div>
   )
 }
