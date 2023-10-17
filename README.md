@@ -6,7 +6,7 @@ Welcome to the MERN Expense Tracker App! This is a full-stack web application bu
 
 - **User Authentication:** Users can sign up and log in to their accounts. Passwords are securely hashed and stored in the database.
 
-- **Expense Tracking:** Users can add,  and delete expenses. Each expense can include details such as the description, amount, date, and category.
+- **Expense Tracking:** Users can add,  and delete expenses. Each expense can include details such as the description, amount, date.
 
 - **User Profile:** Users have their own profiles where they can update personal information, including their name, email, and profile picture.
   
@@ -36,6 +36,8 @@ Create a `.env` file in the root directory and configure the environment variabl
 
 ## Demo
 Check out the app [here](https://expense-tracker-frontend-tmm9.onrender.com).
+
+server link https://expense-tracker-server-rp9x.onrender.com
 
 
 
