@@ -37,7 +37,7 @@ Create a `.env` file in the root directory and configure the environment variabl
 ## Demo
 Check out the app [here](https://expense-tracker-frontend-tmm9.onrender.com).
 
-server link https://expense-tracker-server-rp9x.onrender.com
+
 
 
 
