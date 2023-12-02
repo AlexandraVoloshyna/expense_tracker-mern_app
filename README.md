@@ -18,7 +18,7 @@ Welcome to the MERN Expense Tracker App! This is a full-stack web application bu
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/your-username/mern-expense-tracker-app.git`
+1. Clone this repository: `git clone https://github.com/AlexDevV8/mern-expense-tracker-app.git`
 2. Navigate to the project directory
 3. Install server dependencies: `npm install` from backend directory
 4. Install client dependencies: `npm install` from client directory
